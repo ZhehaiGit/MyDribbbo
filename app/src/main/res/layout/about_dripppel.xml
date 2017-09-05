@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/commentBackgrand">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/commentBackgrand">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id ="@+id/headerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="35dp"
+        android:paddingBottom="@dimen/spacing_medium"
+        android:paddingLeft="@dimen/spacing_large"
+        android:paddingRight="@dimen/spacing_large"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/user_image"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:src="@mipmap/version9"
+            />
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/user_image"
+            android:layout_centerHorizontal="true"
+            android:text="Drippple"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            style="@style/AppTheme.TextView.2.White"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_below="@id/user_name"
+            android:layout_centerHorizontal="true"
+            android:text="Version: 1.0.1"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            style="@style/AppTheme.TextView.2.White"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/developed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:gravity="center_horizontal"
+            android:text="Developed by Zhehai Zhu"
+            android:textSize="24dp"
+            />
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/developed"
+            android:text="Contact: zhz91@pitt.edu"
+            android:textSize="24dp"
+            />
+        <TextView
+            android:id="@+id/credits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@+id/contact"
+            android:text="Translation Credits"
+            android:textSize="22dp"
+            />
+        <TextView
+            android:id="@+id/paypal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/credits"
+            android:gravity="center_horizontal"
+            android:text="PayPal: zhehaizhu@gmail.com"
+            android:textSize="22dp"
+            />
+        <TextView
+            android:id="@+id/click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="70dp"
+            android:layout_below="@+id/paypal"
+
+            android:text="Click to copy the address"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="50dp"
+            android:layout_below="@+id/click"
+            android:text="Your support is very important! By the way, thanks for downloading this app."
+            android:textSize="20dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
+    </ScrollView>
+    </android.support.design.widget.CoordinatorLayout>

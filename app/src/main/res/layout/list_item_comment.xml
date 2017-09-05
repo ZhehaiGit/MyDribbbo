@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comment_clickable_cover"
+        android:padding="@dimen/spacing_small">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="6dp"
+            >
+            <ImageView
+                android:id="@+id/commenter_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/user_picture_placeholder"
+                />
+            <TextView
+                android:id="@+id/commenter_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop = "@id/commenter_image"
+                android:layout_toRightOf= "@id/commenter_image"
+                android:text="shot Title"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="14dp"
+                />
+            <TextView
+                android:id="@+id/comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/commenter_name"
+                android:layout_toRightOf="@id/commenter_image"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:text="Peter"
+                />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/colorChoice2PrimaryDark"
+        />
+
+</LinearLayout>

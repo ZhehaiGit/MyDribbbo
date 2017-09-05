@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_item_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home_black_18dp"
+            android:title="@string/drawer_menu_Popular" />
+        <item
+            android:id="@+id/drawer_item_RecentView"
+            android:icon="@drawable/ic_history_black_18dp"
+            android:title="@string/drawer_menu_RecentShot" />
+        <item
+            android:id="@+id/drawer_item_mostView"
+            android:icon="@drawable/ic_album_black_18dp"
+            android:title="@string/drawer_menu_motstView" />
+        <item
+            android:id="@+id/drawer_item_mostComment"
+            android:icon="@drawable/ic_chat_black_18dp"
+            android:title="@string/drawer_menu_motstComment" />
+        <item
+            android:id="@+id/drawer_item_animated"
+            android:icon="@drawable/ic_gif_black_36dp"
+            android:title="@string/drawer_menu_animated" />
+        <item
+            android:id="@+id/drawer_item_following"
+            android:icon="@drawable/ic_person_black_18dp"
+            android:title="@string/drawer_menu_following" />
+        <item
+            android:id="@+id/drawer_item_likes"
+            android:icon="@drawable/ic_favorite_black_18dp"
+            android:title="@string/drawer_menu_likes" />
+        <item
+            android:id="@+id/drawer_item_buckets"
+            android:icon="@drawable/ic_inbox_black_18dp"
+            android:title="@string/drawer_menu_buckets"/>
+    </group>
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_app"
+                android:icon="@drawable/ic_error_outline_black_24dp"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/log_out_btn"
+                android:icon="@drawable/ic_power_settings_new_yellow_a100_18dp"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.awesome.zhuzhehai.mydribbbo">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/version9"
+        android:label="@string/app_name"
+        android:name="com.awesome.zhuzhehai.mydribbbo.DribbleApplication"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.awesome.zhuzhehai.mydribbbo.view.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.awesome.zhuzhehai.mydribbbo.view.MainActivity" />
+        <activity
+            android:name="com.awesome.zhuzhehai.mydribbbo.dribbble.auth.AuthActivity"
+            android:windowSoftInputMode="adjustPan"/>
+
+        <activity android:name="com.awesome.zhuzhehai.mydribbbo.view.shot_detail.shotActivity"/>
+        <activity android:name="com.awesome.zhuzhehai.mydribbbo.view.bucket_list.BucketListActivity"/>
+        <activity android:name="com.awesome.zhuzhehai.mydribbbo.view.bucket_list.BucketShotListActivity"/>
+        <activity android:name="com.awesome.zhuzhehai.mydribbbo.view.comments_list.CommentListActivity"/>
+        <activity android:name="com.awesome.zhuzhehai.mydribbbo.view.author_resume.authorActivity"/>
+        <activity android:name="com.awesome.zhuzhehai.mydribbbo.view.author_resume.authorShotActivity"/>
+        <activity android:name="com.awesome.zhuzhehai.mydribbbo.view.author_resume.authorlikesActivity"/>
+        <activity android:name="com.awesome.zhuzhehai.mydribbbo.view.about_app.aboutAppActivity"/>
+
+
+    </application>
+
+</manifest>

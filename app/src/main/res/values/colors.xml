@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#9B26AF</color>
+    <color name="colorPrimaryDark">#7A1EA1</color>
+    <color name="colorAccent">#691A99</color>
+
+    <color name="place_holder_bg">#33000000</color>
+    <color name="colorChoice1Primary">#EA4C89</color>
+    <color name="colorChoice1PrimaryDark">#C23D70</color>
+
+    <color name="colorChoice2Primary">#332557c1</color>
+    <color name="colorChoice2PrimaryDark">#33272cca</color>
+
+    <color name="colorChoice3Primary">#3311e799</color>
+    <color name="colorChoice3PrimaryDark">#3327ae9c</color>
+
+    <color name="colorChoice4Primary">#338bbe09</color>
+    <color name="colorChoice4PrimaryDark">#33718f2b</color>
+
+    <color name="colorChoice5Primary">#33e6602f</color>
+    <color name="colorChoice5PrimaryDark">#33804321</color>
+
+    <color name="commentBackgrand">#33555658</color>
+
+
+
+    <color name="color_selector_navigation_item">#33804321</color>
+</resources>
